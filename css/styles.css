@@ -1,0 +1,107 @@
+@font-face {
+  font-family: JetBrainsMono-Regular;
+  src: url(JetBrainsMono-Regular.woff);
+}
+
+@font-face {
+  font-family: JetBrainsMono-Bold;
+  src: url(JetBrainsMono-Bold.woff);
+}
+
+::selection {
+  background-color: #fff;
+}
+
+::-moz-selection {
+  background-color: #fff;
+  }
+
+body {
+	background-color: #26335b;
+	background-image: url('img/rainbowright.png');
+	font-family: JetBrainsMono-Regular, monospace;
+	font-size: 12px;
+	line-height: 1.2;
+	color: #000;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 32px;
+	color: #000;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-family: JetBrainsMono-Bold, monospace;
+}
+
+a:hover {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+
+.rainbowleft, .rainbowmiddle, .rainbowright {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+.rainbowmiddle {
+	background-color: #fff;
+}
+
+section {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	width: 600px;
+}
+
+.pink {
+	padding: 20px;
+	background-color: #ff8bb9;
+}
+
+.red {
+	padding: 20px;
+	background-color: #ee473a;
+}
+
+.orange {
+	padding: 20px;
+	background-color: #ff8d27;
+}
+
+.yellow {
+	padding: 20px;
+	background-color: #ffd840;
+}
+
+.green {
+	padding: 20px;
+	background-color: #9ccb1e;
+}
+
+.blue {
+	padding: 20px;
+	background-color: #6bc8ef;
+}
+
+/* .rainbowright img {
+	position: absolute;
+	top:0px;
+} */
+
+.cloudfirst {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  overflow: hidden;
+  width: 300px;
+}
+
+nav ul li{
+	display: inline;
+}
